@@ -11,17 +11,17 @@ h1 {
     font-style:italic;
 }
 .quest {
-    background-color: rgb(255,250,110);;
+    background-color: white;;
     text-align:center;
 }
 .quest_text {
-    background: linear-gradient(#ffffff, #e0e0e0);
+    background: black;
     width: 33%;
     margin: auto;
 	padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
-	border-left: solid gray;
+	border-left: solid black;
 	border-right: solid black;
 }
 .quest_buttons {
@@ -36,16 +36,15 @@ h1 {
     line-height: 2.5;
     font-size: 7em;
     text-align: center;
-    color: #000;
-    text-shadow: 1px 1px 1px #fff;
+    color: white;
     border-radius: 10px;
-    background-color: rgba(220, 220, 155, 1);
+    background-color: black;
     background-image: linear-gradient(to top left,
-                                  rgba(0, 0, 0, .2),
-                                  rgba(0, 0, 0, .2) 30%,
-                                  rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-            inset -2px -2px 3px rgba(0, 0, 0, .6);
+                                  black,
+                                  black 30%,
+                                  black);
+    box-shadow: inset 2px 2px 3px black
+            inset -2px -2px 3px black;
 }
 .button:hover {
 	background-color: rgba(255, 255, 200, 1);
